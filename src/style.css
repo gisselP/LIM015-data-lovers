@@ -5,6 +5,7 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
+
 /* Inicio header ---------------------------------------------------*/
 
 .logo_imagen {
@@ -59,14 +60,17 @@ body {
     text-decoration: none;
     font-size: 20px;
 }
+
 .nav-menu-link:hover {
     box-shadow: 0px 0px 9px 3px #9F3CB4;
     transition: .2s;
 }
+
 .fa-film,
-.fa-chart-bar{
+.fa-chart-bar {
     padding-left: 10px;
 }
+
 
 /*  Inicio de modal -------------------------------------- */
 
@@ -240,6 +244,7 @@ body {
     margin-left: 0;
 }
 
+
 /* Inicio filtros --------------------------------------*/
 
 .container-select {
@@ -408,19 +413,21 @@ body {
 
 
 /*  Inicio de Not found -------------------------------------- */
+
 .img-not-found {
     width: 40vw;
     min-width: 300px;
     border-radius: 10px;
 }
+
 .ghibli-notFound {
     position: relative;
     text-align: center;
     margin-bottom: 20px;
     display: none;
 }
+
 .notF {
-    
     position: absolute;
     top: 3vw;
     left: 40vw;
