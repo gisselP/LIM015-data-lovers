@@ -51,7 +51,7 @@ export const showData = (data) => {
 function showMore(id) {
 
     let dataFilm = allData.filter(film => film.id == id);
-    console.log(dataFilm);
+
     imgFilm.src = dataFilm[0].poster;
     titleFilm.innerHTML = dataFilm[0].title;
     yearFilm.innerHTML = dataFilm[0].release_date;
@@ -59,15 +59,15 @@ function showMore(id) {
     directorFilm.innerHTML = dataFilm[0].director;
     producerFilm.innerHTML = dataFilm[0].producer;
     synopsisFilm.innerHTML = dataFilm[0].description;
-
+    
    /*----------  media-screen ------*/
     titleFilmNew.innerHTML = dataFilm[0].title;
     yearFilmNew.innerHTML = dataFilm[0].release_date;
     scoreFilmNew.innerHTML = dataFilm[0].rt_score;
     synopsisFilmNew.innerHTML = dataFilm[0].description; 
-
     const dataLocation = dataFilm[0].locations;
     containerLocation.innerHTML = "";
+
     /*----------  se compara para verificar el tamaño del objeto------*/
     if(dataLocation.length==0){
         containerLocation.innerHTML = `<p>No Data</p>`;
@@ -91,7 +91,6 @@ function showMore(id) {
             containerLocation.appendChild(locationElement);
         }
     }
-       
     const dataCharacters = dataFilm[0].people;
     containerCharacter.innerHTML = "";
     for(let key in dataCharacters){
