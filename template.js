@@ -12,6 +12,7 @@ const synopsisFilm = document.querySelector("#synopsis-film");
 const containerLocation = document.querySelector("#container-location");
 const containerCharacter = document.querySelector("#container-characters");
 const containerVehicles = document.querySelector("#container-vehicles");
+
 /*----------  media-screen ------*/
 const titleFilmNew = document.querySelector(".title-new");
 const synopsisFilmNew = document.querySelector("#synopsis-film-new");
